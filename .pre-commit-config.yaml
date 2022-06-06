@@ -9,10 +9,6 @@ repos:
     hooks:
       - id: isort
         name: isort
-  - repo: https://github.com/Lucas-C/pre-commit-hooks-safety
-    rev: v1.2.1
-    hooks:
-      - id: python-safety-dependencies-check
   - repo: https://gitlab.com/pycqa/flake8
     rev: 3.9.2
     hooks:
@@ -21,7 +17,7 @@ repos:
     rev: "v2.3.2" # Use the sha or tag you want to point at
     hooks:
       - id: prettier
-  - repo: git@github.com:Yelp/detect-secrets
+  - repo: https://github.com/Yelp/detect-secrets
     rev: v1.1.0
     hooks:
       - id: detect-secrets
