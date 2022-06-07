@@ -8,6 +8,7 @@ numpy==1.22.4
     # via
     #   -r requirements.in
     #   pandas
+    #   scipy
 pandas==1.4.2
     # via -r requirements.in
 plotly==5.8.0
@@ -16,6 +17,8 @@ python-dateutil==2.8.2
     # via pandas
 pytz==2022.1
     # via pandas
+scipy==1.8.1
+    # via -r requirements.in
 six==1.16.0
     # via python-dateutil
 tenacity==8.0.1
